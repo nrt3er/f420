@@ -1,0 +1,293 @@
+html {
+    background-color:#869960;
+}
+
+body {
+    font-family: tahoma, sans serif;
+    font-size: 87%;
+}
+
+img {
+    max-width: 100%;
+    height:auto;
+}
+
+.image-banner {
+    position: relative;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.image-banner2 {
+    position: relative;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.image-banner img {
+    display: block;
+
+}
+
+.banner-description {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.26);
+    padding: 15px 62px;
+
+}
+
+.banner-description p {
+color: whitesmoke;
+}
+
+.container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    box-sizing: border-box;
+  }
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:rgb(47, 58, 28);
+}
+
+header h1 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 165%;
+}
+
+header p {
+    margin: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.content-area {
+    border-top: 3px solid #e5e9dc;
+    border-bottom: 3px solid #e5e9dc;
+}
+
+.main-area {
+    width: 70%;
+    float: left;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.support {
+    width: 30%;
+    float: left;
+    background-color:#e5e9dc;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    font-size: 85%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.fix {
+    clear: both;
+}
+
+p {
+    color: rgb(26, 49, 12);
+    
+}
+
+ footer p {
+    color: rgb(59, 105, 69);
+    padding-left: 40px;
+}
+
+ h1 {
+    color: rgb(19, 61, 3);
+    text-align: center;
+    font-size: 165%;
+	font-weight: normal;
+}
+
+ header p {
+    color: rgb(57, 97, 57);
+}
+
+ header p span {
+    color: rgba(41, 110, 13, 0.342);
+}
+
+.highlight {
+    color: hsl(81, 83%, 72%);
+    background-color: hsl(83, 30%, 32%);
+}
+
+.brand-color {
+   
+    color: rgb(218, 238, 148);
+    background-color: rgb(77, 102, 37);
+}
+
+.main-area {
+    width: 70%;
+    float: left;
+}
+
+.support {
+    width: 30%;
+    float: left;
+}
+
+.fix {
+    clear: both;
+    }
+
+.group:before, 
+.group:after { 
+    content: " ";
+    display: table;
+}
+.group:after{
+    clear: both;
+}
+
+.sidebar {
+    padding-left: 40px;
+}
+
+.site-nav {
+    margin-top: 20px;
+}
+
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav li {
+    list-style: none;
+    float: left;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color:rgb(26, 49, 12);
+    padding: 10px 20px;
+    border: 3px solid #e5e9dc;
+    border-bottom: none;
+    display: block;
+    margin-left: 20px;
+}
+
+.site-nav a:hover {
+    background-color: #e5e9dc;
+
+}
+
+
+table th {
+    text-align: center;
+    background-color: #869960;
+    color: #e5e9dc;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.26);
+}
+
+table th, table td {
+    border: 1px solid #869960;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+table tbody tr:nth-child(even) td {
+    background-color: whitesmoke;
+
+}
+
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+
+input[type="email"], input[type="password"] {
+    width: 100%;
+    display:block;
+    box-sizing: border-box;
+    padding: 0 0px;
+    height: 40px;
+    font-family: tahoma, sans-serif;
+    font-size: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #e5e9dc;
+}
+
+form {
+    background-color: whitesmoke;
+    padding: 30px 40px;
+}
+
+.hidden-label {
+    position: absolute;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+input {
+    font-family: tahoma, sans serif;
+    font-size: 100%;
+}
+
+input, select {
+    font-family: tahoma, sans-serif;
+    font-size:100%;
+}
+
+input[type="email"]:focus, input[type="password"]:focus {
+    border: 1px #869960;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.26);
+}
+
+input[type="email"], input[type="password"], select {
+    width: 100%;
+    display: block;
+    box-sizing:border-box;
+    padding: 0 10px;
+    height: 40px;
+    font-family: tahoma, sans-serif;
+    font-size:100%;
+    margin-bottom:20px;
+    border:1px solid #cdcdcd;
+
+}
+
+
+input[type="submit"] {
+    width: 100%;
+    display:block;
+    box-sizing: border-box;
+    background-color: #869960;
+    color: whitesmoke;
+    padding: 10px 0;
+    border: 1px solid #71814f;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    border:1px solid #56633a;
+    background-color:#71814f;
+}
+

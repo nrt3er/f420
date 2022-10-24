@@ -1,0 +1,116 @@
+html {
+    background-color: #869960;
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 87%;
+}
+
+.container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #617140;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 165%;
+}
+
+header p {
+    margin: 0;
+}
+
+.content-area {
+    border-top: 3px solid #e5e9dc;
+    border-bottom: 3px solid #e5e9dc;
+}
+
+.main-area {
+    width: 70%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.support {
+    width: 30%;
+    float: left;
+    background-color: #e5e9dc;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    font-size: 85%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.group:before,
+.group:after {
+    content: " ";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.fix {
+    clear: both;
+}
+
+p {
+    color: gray;
+}
+
+ footer p {
+    color: red;
+    text-align: center;
+    font-size: 85%;
+    color: #999;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ h1 {
+    color: orange;
+    text-align: center;
+    font-size: 165%;
+	font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ header p {
+    color: green;
+}
+
+aside {
+    color: #617140;
+}
+
+ header p span {
+    color: blue;
+}
+
+.highlight {
+    color: crimson;
+    background-color: yellow;
+}
+
+.brand-color {
+    color: yellow;
+    background-color: blue;
+}
